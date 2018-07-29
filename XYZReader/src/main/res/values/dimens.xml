@@ -8,4 +8,11 @@
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+    <!-- REFACTOR -->
+    <!-- activity_article_list -->
+    <dimen name="article_list_toolbar_size">112dp</dimen>
+
+    <!-- common -->
+    <dimen name="app_bar_elevation">4dp</dimen>
+
 </resources>
