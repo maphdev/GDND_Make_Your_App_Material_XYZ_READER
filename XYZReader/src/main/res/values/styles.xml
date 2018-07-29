@@ -16,9 +16,27 @@
 -->
 
 <resources>
-    <style name="Refactor" parent="Theme.AppCompat.NoActionBar" >
-        <item name="colorPrimary">@color/theme_primary_dark</item>
-        <item name="colorPrimaryDark">@color/theme_primary</item>
+    <style name="Theme_refactor" parent="Theme.AppCompat.NoActionBar" >
         <item name="colorAccent">@color/theme_accent</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Title_Style" parent="Text">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="Details_Style" parent="Text">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
     </style>
 </resources>
