@@ -21,7 +21,11 @@
     <dimen name="card_elevation">4dp</dimen>
 
     <!-- common -->
+    <dimen name="layout_margin">16dp</dimen>
     <dimen name="app_bar_elevation">4dp</dimen>
     <dimen name="margin">16dp</dimen>
+    <dimen name="text_margin_little">8dp</dimen>
+    <dimen name="text_margin_big">16dp</dimen>
+    <dimen name="text_paragraph_size">22sp</dimen>
 
 </resources>

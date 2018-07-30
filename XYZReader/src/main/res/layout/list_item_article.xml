@@ -35,6 +35,9 @@
             style="@style/Details_Style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/text_margin_little"
+            android:layout_marginLeft="@dimen/text_margin_little"
+            android:layout_marginBottom="@dimen/text_margin_little"
             android:maxLines="2"
             android:ellipsize="end" />
     </LinearLayout>

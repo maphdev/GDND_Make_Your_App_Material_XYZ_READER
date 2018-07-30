@@ -31,12 +31,20 @@
         <item name="android:layout_margin">8dp</item>
     </style>
 
+    <style name="Big_Title_Style" parent="Title_Style">
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
     <style name="Details_Style" parent="Text">
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textStyle">italic</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="Simple_Paragraph" parent="Text">
+        <item name="android:textSize">@dimen/text_paragraph_size</item>
+        <item name="android:textColor">@color/theme_primary_dark</item>
+        <item name="android:layout_margin">16dp</item>
     </style>
 </resources>
