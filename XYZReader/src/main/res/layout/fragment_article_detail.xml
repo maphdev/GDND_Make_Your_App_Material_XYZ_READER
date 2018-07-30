@@ -23,31 +23,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@color/theme_primary"
-                android:elevation="@dimen/app_bar_elevation">
+                android:background="@color/theme_primary">
 
-                    <ImageView
-                        android:id="@+id/photo"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/photo_size"
-                        android:scaleType="centerCrop"
-                        />
+                <ImageView
+                    android:id="@+id/photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/photo_size"
+                    android:scaleType="centerCrop"
+                    />
 
-                    <TextView
-                        android:id="@+id/article_title"
-                        style="@style/Big_Title_Style"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:lineSpacingMultiplier="0.9" />
+                <TextView
+                    android:id="@+id/article_title"
+                    style="@style/Big_Title_Style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="0.9" />
 
-                    <TextView
-                        android:id="@+id/article_byline"
-                        style="@style/Details_Style"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/text_margin_big"
-                        android:layout_marginLeft="@dimen/text_margin_big"
-                        android:layout_marginBottom="@dimen/text_margin_big"/>
+                <TextView
+                    android:id="@+id/article_byline"
+                    style="@style/Details_Style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/text_margin_big"
+                    android:layout_marginLeft="@dimen/text_margin_big"
+                    android:layout_marginBottom="@dimen/text_margin_big"/>
             </LinearLayout>
 
             <TextView
@@ -69,6 +68,7 @@
         android:layout_margin="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
         android:elevation="@dimen/fab_elevation"
+        app:borderWidth="0dp"
         app:pressedTranslationZ="@dimen/fab_press_translation_z"/>
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>

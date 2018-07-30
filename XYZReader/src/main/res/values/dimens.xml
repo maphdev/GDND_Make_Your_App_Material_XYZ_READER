@@ -4,7 +4,6 @@
     <dimen name="detail_body_text_size">22sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
 
-
     <!-- REFACTOR -->
     <!-- activity_article_list -->
     <dimen name="article_list_toolbar_size">112dp</dimen>
