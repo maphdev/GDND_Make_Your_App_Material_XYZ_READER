@@ -1,5 +1,7 @@
 # XYZ READER
 
+Fifth project of Udacity's Android Nanodegree.
+
 Project consisting in redesigning an app to follow the Material Design guidelines and translate a set of static design mocks to a living and breathing app.
 
 ## Preview
