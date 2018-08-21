@@ -4,7 +4,7 @@ Project consisting in redesigning an app to follow the Material Design guideline
 
 ## Preview
 
-![gif preview](https://github.com/maphdev/GDND_Make_Your_App_Material_XYZ_READER/blob/master/preview.gif)
+![gif preview](https://github.com/maphdev/GDND_Make_Your_App_Material_XYZ_READER/blob/master/preview_app.gif)
 
 ## Concepts
 
